@@ -2,14 +2,14 @@ package models;
 
 import java.util.Date;
 
-public class Historio_prestamos {
+public class Historico_prestamo {
 	private int id_prestamo;
 	private String dni_alumno;
 	private int codigo_libro;
 	private Date fecha_prestamo;
 	private Date fecha_devolucion;
 	
-	public Historio_prestamos(int id_prestamo, String dni_alumno, int codigo_libro, Date fecha_prestamo,
+	public Historico_prestamo(int id_prestamo, String dni_alumno, int codigo_libro, Date fecha_prestamo,
 			Date fecha_devolucion) {
 		super();
 		this.id_prestamo = id_prestamo;
